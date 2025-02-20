@@ -151,16 +151,9 @@ body {
 
 @media (min-width: 1500px) {
     #h1-c {
-        width: 100%;
-        text-align: center;
         margin-top: 8vh;
         font-size: 40px;
 
-    }
-
-    #h1-c h1 {
-        color: aliceblue;
-        text-shadow: 1px 1cp 2px white;
     }
 
     #main-c {
