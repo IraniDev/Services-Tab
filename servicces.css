@@ -1,0 +1,263 @@
+@import url('fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ravi, kook;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        /* Stack nav elements vertically */
+        height: auto;
+        /* Adjust height automatically */
+        align-items: stretch;
+        /* Stretch items to fill width */
+    }
+
+    #nav-left,
+    #nav-right {
+        position: static;
+
+        width: 100%;
+
+        text-align: center;
+
+        height: auto;
+    }
+
+
+}
+
+nav {
+    direction: rtl;
+    position: relative;
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #effbfc;
+    border-bottom: 1px outset rgba(87, 87, 87, 0.288);
+}
+
+#nav-left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    font-weight: 700;
+
+}
+
+#nav-center {
+    width: 1fr;
+    height: 100%;
+    display: flex;
+}
+
+#nav-center-ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-li {
+    padding: 10px 10px;
+    margin: 0 3px;
+}
+
+.nav-li-a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    transition: .2s text-shadow;
+}
+
+.nav-li-a:hover {
+    text-shadow: 1px 1px 2px rgba(53, 53, 53, 0.562);
+}
+
+#nav-right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    right: 0px;
+
+
+}
+
+#sign-up {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: azure;
+    transition: transform .1s;
+}
+
+#sign-up:hover {
+    transform: scale(1.04);
+}
+
+body {
+    height: calc(100vh - 91px);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(service-bg-pic.png);
+}
+
+
+#h1-c {
+    width: 100%;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 30px;
+
+}
+
+#h1-c h1 {
+    color: aliceblue;
+    text-shadow: 1px 1cp 2px white;
+}
+
+#main-c {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    margin-top: 5vh;
+
+}
+
+@media (min-width: 1500px) {
+    #h1-c {
+        width: 100%;
+        text-align: center;
+        margin-top: 8vh;
+        font-size: 40px;
+
+    }
+
+    #h1-c h1 {
+        color: aliceblue;
+        text-shadow: 1px 1cp 2px white;
+    }
+
+    #main-c {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 10vh 5vw;
+        column-gap: 35px;
+        row-gap: 30px;
+        justify-content: center;
+        margin-top: 10vh;
+
+    }
+
+    .containers{
+        max-width: 400px;
+        min-width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1365px) {
+    #main-c {
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+
+@media (max-width: 1022px) {
+    #main-c {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    #main-c {
+        grid-template-columns: 300px;
+    }
+
+    #nav-center-ul {
+        justify-content: right;
+        margin-right: 20px;
+
+
+    }
+
+    #nav-center {
+        width: 100%;
+
+    }
+
+    #nav-left {
+        width: 100px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    #nav-right {
+        display: none;
+    }
+
+}
+
+.parsInC {
+    width: 90%;
+    margin: 50px 30px 30px 30px;
+    font-size: 16px;
+
+}
+
+.containers {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #092936bb;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.in-div-p {
+    width: 130px;
+    position: absolute;
+    top: -55px;
+    right: -50px;
+}
+
+#c1 img {
+    top: -65px;
+    right: -50px;
+}
+
+#c2 img {
+    top: -65px;
+    right: -55px;
+}

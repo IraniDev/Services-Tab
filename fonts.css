@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-Thin.ttf) format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-Light.ttf) format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-Medium.ttf) format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-SemiBold.ttf) format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-Bold.ttf) format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Ravi';
+    src: url(Ravi-ExtraBold.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'kook';
+    src: url(Kook-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'kook';
+    src: url(/Kook-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
